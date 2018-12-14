@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-12-14T13:08:07+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">imilano</title><subtitle>imilano 的个人博客</subtitle><author><name>Linchao Zhu</name></author><entry><title type="html">test page</title><link href="http://localhost:4000/2018/12/14/test/" rel="alternate" type="text/html" title="test page" /><published>2018-12-14T00:00:00+08:00</published><updated>2018-12-14T00:00:00+08:00</updated><id>http://localhost:4000/2018/12/14/test</id><content type="html" xml:base="http://localhost:4000/2018/12/14/test/">&lt;p&gt;This is a simple gitalk test.&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;jekyll build 
+&lt;span class=&quot;c&quot;&gt;# 当前文件夹中的内容会生成到 ./site 文件夹中&lt;/span&gt;
+
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;jekyll build &lt;span class=&quot;nt&quot;&gt;--destination&lt;/span&gt; &amp;lt;destination&amp;gt;
+&lt;span class=&quot;c&quot;&gt;# =&amp;gt; 当前文件夹中的内容将会生成到目标文件夹&amp;lt;destination&amp;gt;中。&lt;/span&gt;
+
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;jekyll build &lt;span class=&quot;nt&quot;&gt;--source&lt;/span&gt; &amp;lt;&lt;span class=&quot;nb&quot;&gt;source&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--destination&lt;/span&gt; &amp;lt;destination&amp;gt;
+&lt;span class=&quot;c&quot;&gt;# =&amp;gt; 指定源文件夹&amp;lt;source&amp;gt;中的内容将会生成到目标文件夹&amp;lt;destination&amp;gt;中。&lt;/span&gt;
+
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;jekyll build &lt;span class=&quot;nt&quot;&gt;--watch&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# =&amp;gt; 当前文件夹中的内容将会生成到 ./_site 文件夹中，&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;#    查看改变，并且自动再生成。&lt;/span&gt;
+
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;jekyll build &lt;span class=&quot;nt&quot;&gt;--drafts&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# 会将该草稿的修改时间赋值给草稿文章，作为其发布日期，&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Linchao Zhu</name></author><summary type="html">This is a simple gitalk test.</summary></entry><entry><title type="html">template page</title><link href="http://localhost:4000/2018/12/14/template/" rel="alternate" type="text/html" title="template page" /><published>2018-12-14T00:00:00+08:00</published><updated>2018-12-14T00:00:00+08:00</updated><id>http://localhost:4000/2018/12/14/template</id><content type="html" xml:base="http://localhost:4000/2018/12/14/template/">&lt;p&gt;Content here&lt;/p&gt;</content><author><name>Linchao Zhu</name></author><summary type="html">Content here</summary></entry></feed>
