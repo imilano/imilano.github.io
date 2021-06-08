@@ -2,29 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.lightsinger.me/posts/</loc>
+    <loc>https://blog.lightsinger.top/posts/</loc>
     <lastmod>2021-06-06T20:38:20+08:00</lastmod>
     <priority>0</priority>
   </url><url>
-    <loc>https://blog.lightsinger.me/categories/</loc>
+    <loc>https://blog.lightsinger.top/categories/</loc>
     <lastmod>2021-06-06T20:38:20+08:00</lastmod>
   </url><url>
-    <loc>https://blog.lightsinger.me/categories/category1/</loc>
+    <loc>https://blog.lightsinger.top/categories/category1/</loc>
     <lastmod>2021-06-06T20:38:20+08:00</lastmod>
   </url><url>
-    <loc>https://blog.lightsinger.me/</loc>
+    <loc>https://blog.lightsinger.top/</loc>
     <lastmod>2021-06-06T20:38:20+08:00</lastmod>
   </url><url>
-    <loc>https://blog.lightsinger.me/tags/tag1/</loc>
+    <loc>https://blog.lightsinger.top/tags/tag1/</loc>
     <lastmod>2021-06-06T20:38:20+08:00</lastmod>
   </url><url>
-    <loc>https://blog.lightsinger.me/tags/tag2/</loc>
+    <loc>https://blog.lightsinger.top/tags/tag2/</loc>
     <lastmod>2021-06-06T20:38:20+08:00</lastmod>
   </url><url>
-    <loc>https://blog.lightsinger.me/tags/</loc>
+    <loc>https://blog.lightsinger.top/tags/</loc>
     <lastmod>2021-06-06T20:38:20+08:00</lastmod>
   </url><url>
-    <loc>https://blog.lightsinger.me/posts/test/</loc>
+    <loc>https://blog.lightsinger.top/posts/test/</loc>
     <lastmod>2021-06-06T20:38:20+08:00</lastmod>
   </url>
 </urlset>
