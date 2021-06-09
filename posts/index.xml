@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Philo&#39;s Blog</title>
+    <title>Archive on Philo&#39;s Blog</title>
     <link>https://blog.lightsinger.top/posts/</link>
-    <description>Recent content on Philo&#39;s Blog</description>
+    <description>Recent content in Archive on Philo&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 06 Jun 2021 20:38:20 +0800</lastBuildDate><atom:link href="https://blog.lightsinger.top/posts/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <pubDate>Sun, 06 Jun 2021 20:38:20 +0800</pubDate>
       
       <guid>https://blog.lightsinger.top/posts/test/</guid>
-      <description>&lt;p&gt;Cut out summary from your post content here.&lt;/p&gt;</description>
+      <description>服务器端网络编程的四个步骤： 调用 socket 函数创建套接字 调用 bind 函</description>
     </item>
     
   </channel>
