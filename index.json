@@ -2,6 +2,4 @@
 
   
 
-  
-
-[{"categories":["category1"],"description":"This is a living document and at times it will be out of date. It is intended to articulate how programming in the Go runtime differs from writing normal Go.","tags":["tag1","tag2"],"title":"Technical Posts","url":"https://blog.lightsinger.top/posts/technical-posts/"},{"categories":["category1"],"description":"服务器端网络编程的四个步骤： 调用 socket 函数创建套接字 调用 bind 函","tags":["tag1","tag2"],"title":"Test","url":"https://blog.lightsinger.top/posts/test/"}]
+[{"categories":["life"],"description":"Hello world~","tags":["life","hugo"],"title":"Hello world","url":"https://blog.lightsinger.top/posts/hello-world/"}]
