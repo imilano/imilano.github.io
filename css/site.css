@@ -1,7 +1,28 @@
+/* html {
+	font-family: "Noto Serif SC", Lusitana, serif ;
+}
+
+* {
+  transition: 0.2s all;
+} */
+
 body {
 	background-position: center;
-	background-size: cover
+	background-size: cover;
+	font-family: "Noto Serif SC", Lusitana, serif !important;
+	font-style: normal;
+	font-weight: 400; 
 }
+
+/* main {
+  font-family: "Noto Serif SC", Lusitana, serif;
+  font-style: normal;
+  font-weight: 400;
+} */
+     
+/* h1, h2, h3, h4, h5, h6 {
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, PingFang SC, Hiragino Sans GB, Microsoft Yahei, sans-serif !important;
+} */
 
 .flip-container {
 	width: 100vw;
