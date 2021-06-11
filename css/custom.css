@@ -6,6 +6,7 @@ html {
 
 * {
   transition: 0.2s all;
+  font-family: "Noto Serif SC",serif !important;
 }
 
 body {
@@ -44,6 +45,10 @@ body {
 .ui.large.header {
   /* font-family: "Noto Serif SC", Lusitana, serif !important; */
   font-family: "Noto Serif SC",serif !important;
+}
+
+.utterances-frame {
+  font-family: "Noto Serif SC",serif !important; 
 }
 
 .ui.header {
