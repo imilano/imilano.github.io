@@ -6,7 +6,6 @@ html {
 
 * {
   transition: 0.2s all;
-  font-family: "Noto Serif SC",serif !important;
 }
 
 body {
@@ -47,9 +46,6 @@ body {
   font-family: "Noto Serif SC",serif !important;
 }
 
-.utterances-frame {
-  font-family: "Noto Serif SC",serif !important; 
-}
 
 .ui.header {
   /* font-family: "Noto Serif SC", Lusitana, serif !important;  */
@@ -101,6 +97,7 @@ body.dark .os-viewport {
   .dream-single-aside .ui.segment,
   .ui.segment.post-disqus-area,
   .ui.segment.utterances-comments {
+    font-family: "Noto Serif SC",serif !important; 
     border-radius: 1.5em;
     box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%),
       0 0 0 1px rgb(10 10 10 / 2%);
