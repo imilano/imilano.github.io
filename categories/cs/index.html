@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>All Tags | Philo&#39;s Blog</title>
+    <title>CS | Philo&#39;s Blog</title>
 
     
 <link href="/me/ms-icon-144x144.png" rel="shortcut icon" type="image/x-icon" />
@@ -19,13 +19,13 @@
 
 <meta name="generator" content="Hugo 0.84.0" />
 
-<link rel="canonical" href="https://blog.lightsinger.top/tags/" />
+<link rel="canonical" href="https://blog.lightsinger.top/categories/cs/" />
 
 
-<meta property="og:title" content="Tags" />
+<meta property="og:title" content="CS" />
 <meta property="og:description" content="Blog about code and my life." />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://blog.lightsinger.top/tags/" /><meta property="og:image" content="https://blog.lightsinger.top/me/bckground.jpg"/>
+<meta property="og:url" content="https://blog.lightsinger.top/categories/cs/" /><meta property="og:image" content="https://blog.lightsinger.top/me/bckground.jpg"/>
 
 
 
@@ -33,7 +33,7 @@
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://blog.lightsinger.top/me/bckground.jpg"/>
 
-<meta name="twitter:title" content="Tags"/>
+<meta name="twitter:title" content="CS"/>
 <meta name="twitter:description" content="Blog about code and my life."/>
 
 
@@ -194,45 +194,44 @@
 </header>
 
 
-<div class="ui container">
-  <article class="ui segment dream-tags-section">
-    <h2 class="ui header">All Tags<span class="ui grey sub header">
-        3 tags
-      </span>
-    </h2>
+<div class="ui relaxed grid dream-grid">
+  
+  
+  <div class="sixteen wide mobile eight wide tablet eight wide computer four wide large screen four wide widescreen column dream-column">
+    <article class="ui attached segment card dream-card">
+  <a class="image" href="https://blog.lightsinger.top/posts/%E8%BD%AF%E4%BB%B6%E4%B8%8E%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/">
+    
+    <img src="/img/wil-stewart.jpg" alt="软件与软件工程" />
+    
+  </a>
 
-    
-    <h3 class="ui header">
-      <a href="/tags/hugo/">hugo</a>&nbsp;1 article</h3>
-    <ul>
-      
-      <li>
-        <a href="/posts/hello-world/">Hello world</a>
-      </li>
-      
-    </ul>
-    
-    <h3 class="ui header">
-      <a href="/tags/life/">life</a>&nbsp;1 article</h3>
-    <ul>
-      
-      <li>
-        <a href="/posts/hello-world/">Hello world</a>
-      </li>
-      
-    </ul>
-    
-    <h3 class="ui header">
-      <a href="/tags/software-engineering/">Software Engineering</a>&nbsp;1 article</h3>
-    <ul>
-      
-      <li>
-        <a href="/posts/%E8%BD%AF%E4%BB%B6%E4%B8%8E%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/">软件与软件工程</a>
-      </li>
-      
-    </ul>
-    
-  </article>
+  <div class="content">
+    <h2 class="ui medium header">
+      <a href="/posts/%E8%BD%AF%E4%BB%B6%E4%B8%8E%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/">软件与软件工程</a>
+    </h2>
+    <div class="meta">
+      <p class="date">
+        
+          <span data-format="luxon">2021-06-19T13:50:55&#43;08:00</span>
+        
+      </p>
+    </div>
+    <div class="description">
+      <p>什么是软件，什么是软件工程？简单谈谈我在一次软件工程实践之中的收获。</p>
+    </div>
+  </div>
+
+  <div class="extra content">
+    <div class="author"><img class="ui avatar image" src="/me/avatar.jpg" alt="avatar" /><a href="https://twitter.com/zlc_milano" target="_blank">Philo</a></div>
+    <div class="reading-time">
+      <i class="clock icon"></i>6 minutes read</div>
+  </div>
+</article>
+
+  </div>
+  
+
+  
 </div>
 
 
@@ -471,7 +470,29 @@
 <script src="/js/main.js"></script>
 <script src="/js/theme.js"></script>
 
-     
+    
+
+
+<script src="https://cdn.jsdelivr.net/npm/luxon@1.26.0"></script>
+
+<script>
+  format()
+
+  function format() {
+    $('span[data-format="luxon"]').each(function () {
+      var date = $(this).text()
+
+      $(this).text(luxon.DateTime.fromISO(date, { locale: "en" }).toFormat("yyyy-MM-dd"))
+    })
+  }
+</script>
+
+
+
+<script src="/js/imagesloaded.pkgd.min.js"></script>
+<script src="/js/masonry.pkgd.min.js"></script>
+<script src="/js/grid.js"></script>
+
 
     
 
