@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Philo</title>
+    <link>https://blog.lightsinger.top/</link>
+    <description>Recent content in Home on Philo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 21 Nov 2021 23:25:03 +0800</lastBuildDate><atom:link href="https://blog.lightsinger.top/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>https://blog.lightsinger.top/posts/test/</link>
+      <pubDate>Sun, 21 Nov 2021 23:25:03 +0800</pubDate>
+      
+      <guid>https://blog.lightsinger.top/posts/test/</guid>
+      <description>This is a test post.</description>
+    </item>
+    
+    <item>
+      <title>Vue入门</title>
+      <link>https://blog.lightsinger.top/posts/vue%E5%85%A5%E9%97%A8/</link>
+      <pubDate>Thu, 23 Sep 2021 23:42:07 +0800</pubDate>
+      
+      <guid>https://blog.lightsinger.top/posts/vue%E5%85%A5%E9%97%A8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python异步IO之入门</title>
+      <link>https://blog.lightsinger.top/posts/python%E5%BC%82%E6%AD%A5io%E4%B9%8B%E5%85%A5%E9%97%A8/</link>
+      <pubDate>Thu, 23 Sep 2021 23:35:57 +0800</pubDate>
+      
+      <guid>https://blog.lightsinger.top/posts/python%E5%BC%82%E6%AD%A5io%E4%B9%8B%E5%85%A5%E9%97%A8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>消息队列系列之入门</title>
+      <link>https://blog.lightsinger.top/posts/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97%E7%B3%BB%E5%88%97%E4%B9%8B%E5%85%A5%E9%97%A8/</link>
+      <pubDate>Thu, 23 Sep 2021 23:35:29 +0800</pubDate>
+      
+      <guid>https://blog.lightsinger.top/posts/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97%E7%B3%BB%E5%88%97%E4%B9%8B%E5%85%A5%E9%97%A8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Celery系列之新手入门</title>
+      <link>https://blog.lightsinger.top/posts/celery%E7%B3%BB%E5%88%97%E4%B9%8B%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8/</link>
+      <pubDate>Thu, 23 Sep 2021 23:34:45 +0800</pubDate>
+      
+      <guid>https://blog.lightsinger.top/posts/celery%E7%B3%BB%E5%88%97%E4%B9%8B%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Groupcache 源码阅读(1)</title>
+      <link>https://blog.lightsinger.top/posts/groupcache-%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB1/</link>
+      <pubDate>Wed, 14 Jul 2021 19:17:24 +0800</pubDate>
+      
+      <guid>https://blog.lightsinger.top/posts/groupcache-%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB1/</guid>
+      <description>func hello() { fmt.Println(&amp;#34;Hello world&amp;#34;) }</description>
+    </item>
+    
+    <item>
+      <title>软件与软件工程</title>
+      <link>https://blog.lightsinger.top/posts/%E8%BD%AF%E4%BB%B6%E4%B8%8E%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/</link>
+      <pubDate>Sat, 19 Jun 2021 13:50:55 +0800</pubDate>
+      
+      <guid>https://blog.lightsinger.top/posts/%E8%BD%AF%E4%BB%B6%E4%B8%8E%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/</guid>
+      <description>什么是软件，什么是软件工程？简单谈谈我在一次软件工程实践之中的收获。 软件工程的窘境 在谈软件工程之前，我觉得可以先谈一谈软件工程的“窘境”。 我</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>https://blog.lightsinger.top/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.lightsinger.top/about/</guid>
+      <description>Philo Z Contact Information Email: Click here
+Homepage: https://blog.lightsinger.top
+Twitter: @Philos
+Brief Biography Philo Z is a graduate student in China, who majors in Software Engineering. He earned his master degree from School of Computer Science, Nanjing University of Posts and Telecommunications. He is interested in Linux and Programming Languages, hoping to build greate software to make a little contribution to this beautiful world.
+In his leisure, he likes reading, running and playing games.</description>
+    </item>
+    
+    <item>
+      <title>Books</title>
+      <link>https://blog.lightsinger.top/books/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.lightsinger.top/books/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Movies</title>
+      <link>https://blog.lightsinger.top/movies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.lightsinger.top/movies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Photos</title>
+      <link>https://blog.lightsinger.top/photos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.lightsinger.top/photos/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
