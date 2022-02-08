@@ -1,8 +1,8 @@
-baseurl: "https://yihui.org/"
+baseurl: "https://blog.lightsinger.top/"
 languageCode: "en-us"
-title: "Yihui Xie | 谢益辉"
+title: "Philo"
 theme: "hugo-ivy"
-disqusShortname: "yihui"
+disqusShortname: "philo"
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
 hasCJKLanguage: true
 enableEmoji: true
@@ -56,92 +56,14 @@ menu:
     - name: "日志"
       url: "/cn/"
       weight: 3
-    - name: "简历"
-      url: "/cn/vitae/"
-      weight: 4
-    - name: "菜谱"
-      url: "/cn/recipe/"
-      weight: 5
-    - name: "孩童"
-      url: "/cn/kids/"
-      weight: 6
-    - name: "事务"
-      url: "/todo/"
-      weight: 7
     - name: "English"
       url: "/en/"
-      weight: 8
-  knitr:
-    - name: "Home"
-      url: "/knitr/"
-      weight: 1
-    - name: "Options"
-      url: "/knitr/options/"
-      weight: 2
-    - name: "Hooks"
-      url: "/knitr/hooks/"
-      weight: 3
-    - name: "Examples"
-      url: "/knitr/demo/"
       weight: 4
-    - name: "FAQ"
-      url: "/knitr/faq/"
-      weight: 5
-    - name: "Github repo"
-      pre: "github"
-      url: "https://github.com/yihui/knitr"
-      weight: 6
-    - name: "Yihui Xie"
-      url: "/"
-      weight: 7
-  animation:
-    - name: "Home"
-      url: "/animation/"
-      weight: 1
-    - name: "Examples"
-      url: "/animation/example/"
-      weight: 2
-    - name: "Export"
-      url: "/animation/export/"
-      weight: 3
-    - name: "Resources"
-      url: "/animation/resources/"
-      weight: 4
-    - name: "Github repo"
-      pre: "github"
-      url: "https://github.com/yihui/animation"
-      weight: 5
-    - name: "Yihui Xie"
-      url: "/"
-      weight: 6
-  tinytex:
-    - name: "Home"
-      url: "/tinytex/"
-      weight: 1
-    - name: "FAQs"
-      url: "/tinytex/faq/"
-      weight: 2
-    - name: "R package"
-      url: "/tinytex/r/"
-      weight: 3
-    - name: "Hall of Pain"
-      url: "/tinytex/pain/"
-      weight: 4
-    - name: "中文文档"
-      url: "/tinytex/cn/"
-      weight: 5
-    - name: "Github repo"
-      pre: "github"
-      url: "https://github.com/yihui/tinytex"
-      weight: 6
-    - name: "Yihui Xie"
-      url: "/"
-      weight: 7
 
 params:
-  description: "Personal website of Yihui Xie; 谢益辉的个人网站"
-  footer: "&copy; [Yihui Xie](/) 2001 - 2021"
-  disqusURL: "https://yihui.org"
+  description: "Random thougths about life and tech"
+  footer: "&copy; [Philo](https://blog.lightsinger.top)  | [twitter](https://twitter.com/home) | 2015 - 2022"
+  disqusURL: "https://blog.lightsinger.top"
   customJS:
     - "fix-toc.js"
     - "center-img.js"
@@ -152,7 +74,7 @@ params:
     - "external-link.js"
     - "alt-title.js"
     - "header-link.js"
-  githubContentURL: "https://github.com/rbind/yihui/edit/master/content/"
+  githubContentURL: "https://github.com/imilano/imilano.github.io/edit/blog/content/"
   twitterImage: "/images/logo.png"
 
   # options for highlight.js (version, additional languages, and theme)
@@ -165,22 +87,12 @@ params:
     en:
       img: "/images/logo.png"
       url: "/"
-      alt: "Yihui Xie"
+      alt: "Philo"
       tag: ""
-    knitr:
-      img: "/knitr/images/knit-logo.png"
-      url: "/knitr/"
-      alt: "knitr logo"
-      tag: "knitr: elegant, flexible, and fast dynamic report generation with R"
-    tinytex:
-      img: "/images/logo-tinytex.png"
-      url: "/tinytex/"
-      alt: "tinytex logo"
-      tag: "TinyTeX: A lightweight and easy-to-maintain LaTeX distribution"
 
   author:
-    en: "Yihui Xie"
-    cn: "谢益辉"
+    en: "Philo"
+    cn: "Philo"
     animation: "Yihui Xie & Lijia Yu"
 
   lang:
