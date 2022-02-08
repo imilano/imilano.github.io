@@ -2,7 +2,7 @@ baseurl: "https://blog.lightsinger.top/"
 languageCode: "en-us"
 title: "Philo"
 theme: "hugo-ivy"
-disqusShortname: "philo"
+disqusShortname: "lightsinger"
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
 hasCJKLanguage: true
 enableEmoji: true
@@ -74,7 +74,7 @@ params:
     - "external-link.js"
     - "alt-title.js"
     - "header-link.js"
-  githubContentURL: "https://github.com/imilano/imilano.github.io/edit/blog/content/"
+  githubContentURL: "https://github.com/imilano/imilano.github.io/edit/master/content/"
   twitterImage: "/images/logo.png"
 
   # options for highlight.js (version, additional languages, and theme)
