@@ -1,0 +1,129 @@
+<!doctype html><html lang=en-us>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>Github Issue Guide - Philo</title>
+<meta property="og:title" content="Github Issue Guide - Philo">
+<meta name=twitter:card content="summary">
+<meta property="description" content="This is a guide expected to be read before anyone files an issue to a repository that I maintain on Github. Please help me help you.
+[&amp;hellip;] For general questions, please post them on Stack &amp;hellip;">
+<meta property="og:description" content="This is a guide expected to be read before anyone files an issue to a repository that I maintain on Github. Please help me help you.
+[&amp;hellip;] For general questions, please post them on Stack &amp;hellip;">
+<meta name=twitter:image content="https://blog.lightsinger.top/images/logo.png">
+<link href=//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css rel=stylesheet type=text/css>
+<link rel=stylesheet href=/css/style.css>
+<link rel=stylesheet href=/css/fonts.css>
+<link rel=stylesheet href=/css/custom.css>
+</head>
+<body class=issue>
+<header class=masthead>
+<h1><a href=/><img src=/images/logo.png alt=Philo></a></h1>
+<nav class=menu>
+<ul>
+<li><a href=/en/about/>About</a></li>
+<li><a href=/en/>Blog</a></li>
+<li><a href=/cn/about/>关于</a></li>
+<li><a href=/cn/>日志</a></li>
+<li class=menu-extra></li>
+<li><a href=https://github.com/imilano/imilano.github.io/edit/blog/content/issue.md target=_blank>Edit this page</a></li>
+<li><a href=http://creativecommons.org/licenses/by-nc-sa/4.0/ title="Attribution-NonCommercial-ShareAlike 4.0 International">License</a></li>
+</ul>
+</nav>
+</header>
+<article class=main>
+<header class=title>
+<h1>Github Issue Guide</h1>
+<h3>Yihui Xie /
+2019-03-04</h3>
+<hr>
+</header>
+<p>This is a guide expected to be read before anyone files an issue to a repository that I maintain on Github. Please help me help you.</p>
+<h2 id=got-a-question>Got a question?</h2>
+<p>For general questions, please post them on Stack Overflow first: <a href=http://stackoverflow.com/questions/ask>http://stackoverflow.com/questions/ask</a> (typically you want to use at least the tags <code>r</code> and relevant R package names such as <code>knitr</code>, <code>rmarkdown</code>, <code>blogdown</code>, and so on). You can also ask in the RStudio Community: <a href=https://community.rstudio.com>https://community.rstudio.com</a>. Please come back to Github only if nobody answers your question there in at least 24 hours, and <a href=/en/2017/10/cross-posting/>let us know the URL</a> of your post. There are several benefits of asking questions on popular public forums than asking a single developer (<a href=/en/2017/08/so-gh-email/>see this post</a>).</p>
+<p>If you have asked the question elsewhere, <a href=/en/2017/10/cross-posting/>please mention your cross-posting</a> in all places where you asked the question. After your question has been answered in one place, please notify people in other places so they won&rsquo;t waste their time.</p>
+<p>If an issue has been closed, please refrain from continuing to reply to it. An issue that can never be &ldquo;truly&rdquo; closed makes me feel stressful. Instead, please feel free to open a new issue and you can reference the closed issue if you think it is relevant.</p>
+<h2 id=bug-reports>Bug reports</h2>
+<p>For bug reports, please provide <a href=/en/2017/09/the-minimal-reprex-paradox/>a minimal, self-contained, and reproducible example</a> by reducing your example as much as possible right before the problem goes away. By doing this, you may be able to figure out what the problem really is before reporting to us.</p>
+<p>If your example is a single plain-text file, post the content in the issue (be sure to format it as a verbatim block). If your example contains multiple files, please upload them as a zip file to the Github issue.</p>
+<p>Please always provide <code>xfun::session_info()</code>. If the relevant package is not in the session info, you may pass the package name to this function, e.g.,</p>
+<pre><code class=language-r>xfun::session_info('rmarkdown')
+</code></pre>
+<p>Screenshots are often very helpful to illustrate your issues, but <a href=/en/2018/01/screenshots-vs-text/>please don&rsquo;t post code as screenshots</a>.</p>
+<p>It will be helpful if you make sure <a href=/en/2017/05/when-in-doubt-upgrade/>all your packages are up-to-date</a> before reporting issues. You should at least run:</p>
+<pre><code class=language-r>update.packages(ask = FALSE, checkBuilt = TRUE)
+# please remember to restart R after updating packages
+</code></pre>
+<p>Even better if you could test the development version of the package, e.g. (taking <strong>knitr</strong> for example below),</p>
+<pre><code class=language-r>remotes::install_github('yihui/knitr', upgrade = TRUE)
+</code></pre>
+<h2 id=proposing-a-feature-implementation-or-bug-fix>Proposing a feature implementation or bug fix</h2>
+<p>If you are able to fix the bug by yourself, you are welcome to submit a pull request. When you feel the fix would require some substantial effort, please talk to us before doing all the hard work, because we want to make sure you would work on something that we would be willing to accept later. This also applies to feature requests.</p>
+<p>Two common problems in pull requests are:</p>
+<ol>
+<li>
+<p><a href=/en/2018/11/cosmetic-changes/>Making cosmetic changes</a> in the original codebase. Please refrain from doing this, so the reviewer won&rsquo;t be distracted by trivial changes or argue with you. If you have strong opinions on cosmetic changes, please send a separate pull request.</p>
+</li>
+<li>
+<p>Including multiple features or bug fixes in a single pull request. This often makes it hard for us to make the decision. Please try to bring <a href=/en/2018/02/bite-sized-pull-requests/>bite-sized pull requests</a>.</p>
+</li>
+</ol>
+<h2 id=please-format-your-issue-correctly>Please format your issue correctly</h2>
+<p>To include a verbatim chunk of arbitrary text, wrap it in a pair of three backticks. When any line of your text contains N backticks (N >= 3), use N + 1 backticks to wrap the text, e.g. use four backticks to wrap three:</p>
+<pre><code>````
+A sample document.
+
+```{r}
+1 + 1  # a line of code
+```
+
+Another paragraph.
+````
+</code></pre>
+<p>If it is just a chunk of R code (or other languages) and you want syntax highlighting, you may use three backticks to format it, e.g.</p>
+<pre><code>```r
+rnorm(10)
+```
+</code></pre>
+<p>That is often enough to know about the formatting problems. To know more about other common formatting issues, you may <a href=/en/2018/05/github-issue-format/>read this post</a>.</p>
+<p>Usually your issue will be closed after it is fixed, but sometimes it is closed only because we are unable to offer any help. It does not mean your issue is not real or bad. You can propose a fix by yourself through a pull request. Your constructive feedback is always appreciated.</p>
+<footer>
+<section class=comments>
+<div class=tabs style=display:none>
+<input name=tabs type=radio id=tab-1 checked class=input>
+<label for=tab-1 class=label>Disqus</label>
+<div class=panel>
+<div id=disqus_thread></div>
+<script data-src=//philo.disqus.com/embed.js async></script>
+<script>var disqus_config=function(){var a="https://blog.lightsinger.top"+location.pathname,b=function(){this.page.url=a};return b.DisqusJSInit=function(){var b=new DisqusJS({shortname:"philo",siteName:"Philo",identifier:void 0,url:a,api:"https://yihui.org/disqus/",apikey:['7KUjj8dWYWdg36SwnKhiZmfiBcRrwlCDudkFZHAkfFJKBerk9IAPnnuo45Kkm22W','XrSwjw0Vm57x9oStOytHMBVpXkGBivU2ohEV1loqEEFmJ8Ulefxuz1lw9zDeYFN8','Hqkwx8JsVo5YOtkx0Oqc75oWIUG0n1PR9AgsrSJID4sEpkUKDgEyIhoObeoF1miW'],admin:'yihui',adminLabel:'Yihui Xie'})},b}()</script>
+</div>
+<input name=tabs type=radio id=tab-2 class=input>
+<label for=tab-2 class=label>Utterances</label>
+<div class=panel>
+<script data-src=https://utteranc.es/client.js repo=rbind/yihui issue-term=pathname label=comment theme=github-light crossorigin=anonymous async></script>
+</div>
+<input name=tabs type=radio id=tab-3 class=input>
+<label for=tab-3 class=label>Preferences</label>
+<div class=panel>
+<p class=title>Layout of comment panels</p>
+<input name=layout type=radio id=layout-1 checked>
+<label for=layout-1>Tabbed (wide screen) / Stacked (small screen)</label>
+<br>
+<input name=layout type=radio id=layout-2>
+<label for=layout-2>Full display</label>
+</div>
+</div>
+<script>(function(c){var o=function(){var a=!0;try{a=window.self!==window.top}catch(a){}return a},b,f,a,e,n,j,i,m,l,g,d,h,k;if(o())return;if(b=c.getElementById('disqus_thread'),f=b.nextElementSibling,a=c.querySelector('section.comments'),e=a.querySelectorAll('input[type="radio"]'),f.setAttribute('data-timestamp',+new Date),n=function(){var a={};return e.forEach(function(b){a[b.id]=b.checked}),a},j=function(){return a.querySelector('#tab-2').checked=!0,'add'},i=function(b){if(b.name!=='layout')return;a.classList[b.id==='layout-2'?j():'remove']('comment-full')},m=function(){var a=localStorage.getItem('comment-prefs');if(!a)return;a=JSON.parse(a),e.forEach(function(b){a[b.id]&&(b.checked=!0,i(b))})},l=function(){i(this),g();var a=JSON.stringify(n());try{localStorage.setItem('comment-prefs',a)}catch(a){}},g=function(){var b=a.classList.contains('comment-full');a.querySelectorAll('input[name="tabs"]').forEach(function(d,e){if(!b&&!d.checked)return;var c=a.querySelector('.panel:nth-of-type('+(e+1)+') > script[data-src]');if(!c||!c.dataset.src)return;c.src=c.dataset.src,c.removeAttribute('data-src')})},m(),e.forEach(function(a){a.addEventListener('change',l)}),d=!1,h=function(c){if(d)return;a.querySelector('.tabs').style.display='',g(),d=!0,c&&b.scrollIntoView()},f.onerror=function(d){var a=c.createElement('script');a.src="//cdn.jsdelivr.net/gh/yihui/DisqusJS@1.3.3/src/disqus.min.js",b.appendChild(a);try{localStorage.setItem('dsqjs_mode','dsqjs')}catch(a){}a.onload=function(b){var a=c.createElement('link');a.rel='stylesheet',a.href='//cdn.jsdelivr.net/gh/yihui/DisqusJS@1.3.3/src/disqusjs.min.css',c.head.appendChild(a),disqus_config.DisqusJSInit()},a.onerror=function(a){b.innerText='Sorry, but you cannot make comments because Disqus failed to load for some reason. It is known to be blocked in certain regions. If you are sure it is not blocked in your region, please refresh the page. Alternatively, you can comment with Utterances. 您可能需要翻墙发表 Disqus 评论；若没有梯子，不妨尝试使用 Github 登录 Utterances 评论。',b.style.border='1px dashed',b.style.padding='.5em',b.style.background='lightyellow',j()}},location.hash.match(/^#comment-[0-9]+$/))return h(!0);k=function(){if(d)return;var b=a.getBoundingClientRect();b.top<window.innerHeight&&b.bottom>=0&&h()},window.addEventListener('load',k),c.addEventListener('scroll',k)})(document)</script>
+<noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript>
+</section>
+<script async src=https://cdn.jsdelivr.net/combine/npm/@xiee/utils/js/fix-toc.min.js,npm/@xiee/utils/js/center-img.min.js,npm/@xiee/utils/js/right-quote.min.js,npm/@xiee/utils/js/no-highlight.min.js,npm/@xiee/utils/js/fix-footnote.min.js,npm/@xiee/utils/js/math-code.min.js,npm/@xiee/utils/js/external-link.min.js,npm/@xiee/utils/js/alt-title.min.js,npm/@xiee/utils/js/header-link.min.js></script>
+<script src=//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js></script>
+<script src=//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js></script>
+<script src=//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js></script>
+<script src=//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/tex.min.js></script>
+<script>hljs.configure({languages:[]}),hljs.initHighlightingOnLoad()</script>
+<hr>
+<div class=copyright>© <a href=https://blog.lightsinger.top>Philo</a> | <a href=https://twitter.com/zlc_milano>twitter</a> | 2015 - 2022</div>
+</footer>
+</article>
+</body>
+</html>
