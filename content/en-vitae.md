@@ -8,11 +8,11 @@ disable_comments: true
 
 ## Contact Information
 
-Email: [Click here](https://mail.google.com/mail/?view=cm&fs=1&to=reallinchao.zh@gmail.com)
+- Email: [Click here](https://mail.google.com/mail/?view=cm&fs=1&to=reallinchao.zh@gmail.com)
 
-Homepage: [https://blog.lightsinger.top](https://blog.lightsinger.top)
+- Homepage: [https://blog.lightsinger.top](https://blog.lightsinger.top)
 
-Twitter: [@Philos](https://twitter.com/zlc_milano)
+- Twitter: [@Philos](https://twitter.com/zlc_milano)
 
 
 ## Brief Biography
