@@ -6,5 +6,5 @@ To build the website locally, you must clone this repo with its submodule (use t
 git clone --recursive git@github.com:rbind/yihui.git
 ```
 
-All credits goes to [yihui](https://github.com/rbind/yihui). Salute to open source.
+All credits goes to [yihui](https://github.com/rbind/yihui), as well as open source.
 
