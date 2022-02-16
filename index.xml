@@ -117,7 +117,8 @@ document.querySelectorAll('.main a').forEach(function(el) {
 
         
         ]]></description></item><item><title>关于</title><link>https://blog.lightsinger.top/cn/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.lightsinger.top/cn/about/</guid><description>
-&lt;p>Coming soon&amp;hellip;&lt;/p></description></item><item><title>歌单</title><link>https://blog.lightsinger.top/cn/sing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.lightsinger.top/cn/sing/</guid><description><![CDATA[
+&lt;h2 id="我是谁">我是谁&lt;/h2>
+&lt;h2 id="联系我">联系我&lt;/h2></description></item><item><title>歌单</title><link>https://blog.lightsinger.top/cn/sing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.lightsinger.top/cn/sing/</guid><description><![CDATA[
         <h2 id="国语">国语</h2>
 <p>这个人很懒，什么都没写&hellip;</p>
 <h2 id="粤语">粤语</h2>
@@ -142,5 +143,4 @@ document.querySelectorAll('.main a').forEach(function(el) {
 </ol>
 
         
-        ]]></description></item><item><title>链接</title><link>https://blog.lightsinger.top/cn/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.lightsinger.top/cn/links/</guid><description>
-&lt;p>请移步&lt;a href="../about/">关于页面&lt;/a>。&lt;/p></description></item></channel></rss>
+        ]]></description></item></channel></rss>
