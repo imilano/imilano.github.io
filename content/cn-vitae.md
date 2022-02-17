@@ -8,7 +8,9 @@ disable_comments: true
 
 ## 联系方式
 
-Email：reallinchao.zh@gmail.com；主页：<https://blog.lightsinger.top>；现居中国大陆。
+- Email：[点这里](reallinchao.zh@gmail.com)
+- 主页：[https://blog.lightsinger.top](https://blog.lightsinger.top)
+- Twitter: [@Philos](https://twitter.com/zlc_milano)
 
 
 ## 教育背景
