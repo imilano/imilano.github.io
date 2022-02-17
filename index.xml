@@ -116,9 +116,16 @@ document.querySelectorAll('.main a').forEach(function(el) {
 </script>
 
         
-        ]]></description></item><item><title>关于</title><link>https://blog.lightsinger.top/cn/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.lightsinger.top/cn/about/</guid><description>
-&lt;h2 id="我是谁">我是谁&lt;/h2>
-&lt;h2 id="联系我">联系我&lt;/h2></description></item><item><title>歌单</title><link>https://blog.lightsinger.top/cn/sing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.lightsinger.top/cn/sing/</guid><description><![CDATA[
+        ]]></description></item><item><title>书单</title><link>https://blog.lightsinger.top/cn/books/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.lightsinger.top/cn/books/</guid><description>
+&lt;p>这里是我读过的书，每本书都会有一段简短的描述，对于那些强烈推荐的书，你感兴趣的话，可以一读。&lt;/p>
+&lt;h2 id="2022">2022&lt;/h2></description></item><item><title>关于</title><link>https://blog.lightsinger.top/cn/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.lightsinger.top/cn/about/</guid><description><![CDATA[
+        <h2 id="我是谁">我是谁</h2>
+<p>你好，我是 Philo，一个还在攻读硕士学位的普通人。我出生自云南大理，一个山清水秀天蓝云白的地方，从小吹着洱海风长大。人生的前二十年我浑浑噩噩，跟中国绝大多数年轻人一样随波逐流，慢慢的才开始认识自我。16 年高考失利，阴差阳错进入计算机行业，如今还在这条道上艰难求索。我崇尚自由，痛恨百度和 GFW，我认为 Google 是这个世界上最伟大的公司。闲暇时间，我喜欢阅读，不分类别，只要感兴趣的我都会找来一观，我相信开卷有益不是空话。我经常锻炼，一周锻炼三次左右，我认为健康的身体是一切的前提，我希望自己能够活到 100 岁。我常看美剧，偶尔看英剧（如果好看的话），自成年之后，我鲜有再看国产剧或者国产电影，大部分国产剧和电影基本是在浪费生命。我喜欢音乐，目前也在学习吉他。Life is too short to be ordinary, 我希望自己不会成为一个平凡的人。我正在努力让自己变得更加专业，在自己感兴趣的领域拥有话语权是一件很酷的事情。</p>
+<h2 id="联系我">联系我</h2>
+<p>我很少在微信上聊天，每次聊天坚决不会让自己超过半小时（父母除外），我相信面对面的交流更加高效和有趣。如果你对我感兴趣或者有想对我说的话，可以发送邮件到<a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=reallinchao.zh@gmail.com">这里</a>。我会经常查收邮件和清空收件箱，如果你没有收到回复，请再等等，可能我在外面撸猫。</p>
+
+        
+        ]]></description></item><item><title>歌单</title><link>https://blog.lightsinger.top/cn/sing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.lightsinger.top/cn/sing/</guid><description><![CDATA[
         <h2 id="国语">国语</h2>
 <p>这个人很懒，什么都没写&hellip;</p>
 <h2 id="粤语">粤语</h2>
@@ -130,7 +137,11 @@ document.querySelectorAll('.main a').forEach(function(el) {
         ]]></description></item><item><title>简历</title><link>https://blog.lightsinger.top/cn/vitae/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.lightsinger.top/cn/vitae/</guid><description><![CDATA[
         <h1 id="philo">Philo</h1>
 <h2 id="联系方式">联系方式</h2>
-<p>Email：reallinchao.zh@gmail.com；主页：<a href="https://blog.lightsinger.top">https://blog.lightsinger.top</a>；现居中国大陆。</p>
+<ul>
+<li>Email：<a href="reallinchao.zh@gmail.com">点这里</a></li>
+<li>主页：<a href="https://blog.lightsinger.top">https://blog.lightsinger.top</a></li>
+<li>Twitter: <a href="https://twitter.com/zlc_milano">@Philos</a></li>
+</ul>
 <h2 id="教育背景">教育背景</h2>
 <ul>
 <li>2020.09 ~ 至今 中国科学技术大学，软件工程硕士</li>
