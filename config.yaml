@@ -69,6 +69,7 @@ params:
   disqusURL: "https://blog.lightsinger.top"
   utterancRepo: "imilano/imilano.github.io"
   utterancTheme: "github-light"
+  utterancIssutTerm: "title"
   customJS:
     - "fix-toc.js"
     - "center-img.js"

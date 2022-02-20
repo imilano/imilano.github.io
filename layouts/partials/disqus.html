@@ -37,7 +37,7 @@
   <input name="tabs" type="radio" id="tab-2" class="input"/>
   <label for="tab-2" class="label">Utterances</label>
   <div class="panel">
-    <script data-src="https://utteranc.es/client.js" repo="{{ .Site.Params.utterancRepo }}" issue-term="pathname"
+    <script data-src="https://utteranc.es/client.js" repo="{{ .Site.Params.utterancRepo }}" issue-term="{{ .Site.Params.utterancIssueTerm }}"
       label="comment" theme="{{ .Site.Params.utterancTheme }}" crossorigin="anonymous" async></script>
   </div>
   <input name="tabs" type="radio" id="tab-3" class="input"/>
