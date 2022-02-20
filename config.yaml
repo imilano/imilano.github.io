@@ -67,6 +67,8 @@ params:
   description: "Random thougths about life and tech"
   footer: "&copy; [Philo](https://blog.lightsinger.top)  | [twitter](https://twitter.com/zlc_milano) | 2015 - 2022"
   disqusURL: "https://blog.lightsinger.top"
+  utterancRepo: "imilano/imilano.github.io"
+  utterancTheme: "github-light"
   customJS:
     - "fix-toc.js"
     - "center-img.js"
