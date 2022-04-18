@@ -1,69 +1,7 @@
-<!doctype html><html lang=en-us>
-<head>
-<meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1">
-<title>404 Page not found - Philo</title>
-<meta property="og:title" content="404 Page not found - Philo">
-<meta name=twitter:card content="summary">
-<meta name=twitter:image content="https://blog.lightsinger.top/images/logo.png">
-<link rel=stylesheet href=/css/style.css>
-<link rel=stylesheet href=/css/fonts.css>
-<link rel=stylesheet href=/css/custom.css>
-</head>
-<body class=/404.html>
-<header class=masthead>
-<h1><a href=/><img src=/images/logo.png alt=Philo></a></h1>
-<nav class=menu>
-<ul>
-<li><a href=/en/about/>About</a></li>
-<li><a href=/en/>Blog</a></li>
-<li><a href=/cn/about/>关于</a></li>
-<li><a href=/cn/>日志</a></li>
-</ul>
-</nav>
-</header>
-<article class=main>
-<header class=title>
-<h1>404 Page not found</h1>
-<hr>
-</header>
-<p>The page at <code>
-<script>document.write(location.href)</script>
-</code> was not found. Feel confused? Please go ahead and leave a message below to notify me. It will be great if you could tell me the URL of the page and where/how you got this URL. Thanks!</p>
-<p><img src=https://slides.yihui.org/gif/elevator.gif alt="404 not found"></p>
-<footer>
-<section class=comments>
-<div class=tabs style=display:none>
-<input name=tabs type=radio id=tab-1 checked class=input>
-<label for=tab-1 class=label>Disqus</label>
-<div class=panel>
-<div id=disqus_thread></div>
-<script data-src=//lightsinger.disqus.com/embed.js async></script>
-<script>var disqus_config=function(){var a="https://blog.lightsinger.top/404.html",b=function(){this.page.url=a};return b.DisqusJSInit=function(){var b=new DisqusJS({shortname:"lightsinger",siteName:"Philo",identifier:void 0,url:a,api:"https://blog.lightsinger.top/disqus/",apikey:['DvbJymTfstIPiEfFLDapJ4QS9QgpXxQVV0qsBIhQxuzHzF2evUxi3qsrUkKTutZr'],admin:'philo',adminLabel:'philo'})},b}()</script>
-</div>
-<input name=tabs type=radio id=tab-2 class=input>
-<label for=tab-2 class=label>Utterances</label>
-<div class=panel>
-<script data-src=https://utteranc.es/client.js repo=imilano/imilano.github.io issue-term=title label=comment theme=github-light crossorigin=anonymous async></script>
-</div>
-<input name=tabs type=radio id=tab-3 class=input>
-<label for=tab-3 class=label>Preferences</label>
-<div class=panel>
-<p class=title>Layout of comment panels</p>
-<input name=layout type=radio id=layout-1 checked>
-<label for=layout-1>Tabbed (wide screen) / Stacked (small screen)</label>
-<br>
-<input name=layout type=radio id=layout-2>
-<label for=layout-2>Full display</label>
-</div>
-</div>
-<script>(function(c){var o=function(){var a=!0;try{a=window.self!==window.top}catch(a){}return a},b,f,a,e,n,j,i,m,l,g,d,h,k;if(o())return;if(b=c.getElementById('disqus_thread'),f=b.nextElementSibling,a=c.querySelector('section.comments'),e=a.querySelectorAll('input[type="radio"]'),f.setAttribute('data-timestamp',+new Date),n=function(){var a={};return e.forEach(function(b){a[b.id]=b.checked}),a},j=function(){return a.querySelector('#tab-2').checked=!0,'add'},i=function(b){if(b.name!=='layout')return;a.classList[b.id==='layout-2'?j():'remove']('comment-full')},m=function(){var a=localStorage.getItem('comment-prefs');if(!a)return;a=JSON.parse(a),e.forEach(function(b){a[b.id]&&(b.checked=!0,i(b))})},l=function(){i(this),g();var a=JSON.stringify(n());try{localStorage.setItem('comment-prefs',a)}catch(a){}},g=function(){var b=a.classList.contains('comment-full');a.querySelectorAll('input[name="tabs"]').forEach(function(d,e){if(!b&&!d.checked)return;var c=a.querySelector('.panel:nth-of-type('+(e+1)+') > script[data-src]');if(!c||!c.dataset.src)return;c.src=c.dataset.src,c.removeAttribute('data-src')})},m(),e.forEach(function(a){a.addEventListener('change',l)}),d=!1,h=function(c){if(d)return;a.querySelector('.tabs').style.display='',g(),d=!0,c&&b.scrollIntoView()},f.onerror=function(d){var a=c.createElement('script');a.src="//cdn.jsdelivr.net/gh/imilano/DisqusJS@1.3.3/src/disqus.min.js",b.appendChild(a);try{localStorage.setItem('dsqjs_mode','dsqjs')}catch(a){}a.onload=function(b){var a=c.createElement('link');a.rel='stylesheet',a.href='//cdn.jsdelivr.net/gh/imilano/DisqusJS@1.3.3/src/disqusjs.min.css',c.head.appendChild(a),disqus_config.DisqusJSInit()},a.onerror=function(a){b.innerText='Sorry, but you cannot make comments because Disqus failed to load for some reason. It is known to be blocked in certain regions. If you are sure it is not blocked in your region, please refresh the page. Alternatively, you can comment with Utterances. 您可能需要翻墙发表 Disqus 评论；若没有梯子，不妨尝试使用 Github 登录 Utterances 评论。',b.style.border='1px dashed',b.style.padding='.5em',b.style.background='lightyellow',j()}},location.hash.match(/^#comment-[0-9]+$/))return h(!0);k=function(){if(d)return;var b=a.getBoundingClientRect();b.top<window.innerHeight&&b.bottom>=0&&h()},window.addEventListener('load',k),c.addEventListener('scroll',k)})(document)</script>
-<noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript>
-</section>
-<script async src=https://cdn.jsdelivr.net/combine/npm/@xiee/utils/js/fix-toc.min.js,npm/@xiee/utils/js/center-img.min.js,npm/@xiee/utils/js/right-quote.min.js,npm/@xiee/utils/js/no-highlight.min.js,npm/@xiee/utils/js/fix-footnote.min.js,npm/@xiee/utils/js/math-code.min.js,npm/@xiee/utils/js/external-link.min.js,npm/@xiee/utils/js/alt-title.min.js,npm/@xiee/utils/js/header-link.min.js></script>
-<hr>
-<div class=copyright> © <a href=https://blog.lightsinger.top>Philo</a> | <a href=https://twitter.com/zlc_milano>twitter</a> | 2021 - 2022 </div>
-</footer>
-</article>
-</body>
-</html>
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>404 Page not found - Philo</title><meta property="og:title" content="404 Page not found - Philo"><meta name=twitter:card content="summary"><meta name=twitter:image content="https://blog.lightsinger.top/images/logo.png"><link rel=stylesheet href=/css/style.css><link rel=stylesheet href=/css/fonts.css><link rel=stylesheet href=/css/custom.css></head><body class=/404.html><header class=masthead><h1><a href=/><img src=/images/logo.png alt=Philo></a></h1><nav class=menu><ul><li><a href=/en/about/>About</a></li><li><a href=/en/>Blog</a></li><li><a href=/cn/about/>关于</a></li><li><a href=/cn/>日志</a></li></ul></nav></header><article class=main><header class=title><h1>404 Page not found</h1><hr></header><p>The page at <code><script>document.write(location.href)</script></code>was not found. Feel confused? Please go ahead and leave a message below to notify me. It will be great if you could tell me the URL of the page and where/how you got this URL. Thanks!</p><p><img src=https://slides.yihui.org/gif/elevator.gif alt="404 not found"></p><footer><section class=comments><div class=tabs style=display:none><input name=tabs type=radio id=tab-1 checked class=input>
+<label for=tab-1 class=label>Disqus</label><div class=panel><div id=disqus_thread></div><script data-src=//lightsinger.disqus.com/embed.js async></script>
+<script>var disqus_config=function(){var e="https://blog.lightsinger.top/404.html",t=function(){this.page.url=e};return t.DisqusJSInit=function(){var t=new DisqusJS({shortname:"lightsinger",siteName:"Philo",identifier:void 0,url:e,api:"https://blog.lightsinger.top/disqus/",apikey:["DvbJymTfstIPiEfFLDapJ4QS9QgpXxQVV0qsBIhQxuzHzF2evUxi3qsrUkKTutZr"],admin:"philo",adminLabel:"philo"})},t}()</script></div><input name=tabs type=radio id=tab-2 class=input>
+<label for=tab-2 class=label>Utterances</label><div class=panel><script data-src=https://utteranc.es/client.js repo=imilano/imilano.github.io issue-term=title label=comment theme=github-light crossorigin=anonymous async></script></div><input name=tabs type=radio id=tab-3 class=input>
+<label for=tab-3 class=label>Preferences</label><div class=panel><p class=title>Layout of comment panels</p><input name=layout type=radio id=layout-1 checked>
+<label for=layout-1>Tabbed (wide screen) / Stacked (small screen)</label><br><input name=layout type=radio id=layout-2>
+<label for=layout-2>Full display</label></div></div><script>(function(n){if(r=function(){var e=!0;try{e=window.self!==window.top}catch(e){}return e},r())return;var t=n.getElementById("disqus_thread"),d=t.nextElementSibling,e=n.querySelector("section.comments"),i=e.querySelectorAll('input[type="radio"]');d.setAttribute("data-timestamp",+new Date);var s,o,a,r,f=function(){var e={};return i.forEach(function(t){e[t.id]=t.checked}),e},u=function(){return e.querySelector("#tab-2").checked=!0,"add"},c=function(t){if(t.name!=="layout")return;e.classList[t.id==="layout-2"?u():"remove"]("comment-full")},h=function(){var e=localStorage.getItem("comment-prefs");if(!e)return;e=JSON.parse(e),i.forEach(function(t){e[t.id]&&(t.checked=!0,c(t))})},m=function(){c(this),l();var e=JSON.stringify(f());try{localStorage.setItem("comment-prefs",e)}catch(e){}},l=function(){var t=e.classList.contains("comment-full");e.querySelectorAll('input[name="tabs"]').forEach(function(s,o){if(!t&&!s.checked)return;var n=e.querySelector(".panel:nth-of-type("+(o+1)+") > script[data-src]");if(!n||!n.dataset.src)return;n.src=n.dataset.src,n.removeAttribute("data-src")})};if(h(),i.forEach(function(e){e.addEventListener("change",m)}),s=!1,o=function(n){if(s)return;e.querySelector(".tabs").style.display='',l(),s=!0,n&&t.scrollIntoView()},d.onerror=function(){var e=n.createElement("script");e.src="//cdn.jsdelivr.net/gh/imilano/DisqusJS@1.3.3/src/disqus.min.js",t.appendChild(e);try{localStorage.setItem("dsqjs_mode","dsqjs")}catch(e){}e.onload=function(){var e=n.createElement("link");e.rel="stylesheet",e.href="//cdn.jsdelivr.net/gh/imilano/DisqusJS@1.3.3/src/disqusjs.min.css",n.head.appendChild(e),disqus_config.DisqusJSInit()},e.onerror=function(){t.innerText="Sorry, but you cannot make comments because Disqus failed to load for some reason. It is known to be blocked in certain regions. If you are sure it is not blocked in your region, please refresh the page. Alternatively, you can comment with Utterances. 您可能需要翻墙发表 Disqus 评论；若没有梯子，不妨尝试使用 Github 登录 Utterances 评论。",t.style.border="1px dashed",t.style.padding=".5em",t.style.background="lightyellow",u()}},location.hash.match(/^#comment-[0-9]+$/))return o(!0);a=function(){if(s)return;var t=e.getBoundingClientRect();t.top<window.innerHeight&&t.bottom>=0&&o()},window.addEventListener("load",a),n.addEventListener("scroll",a)})(document)</script><noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript></section><script async src=https://cdn.jsdelivr.net/combine/npm/@xiee/utils/js/fix-toc.min.js,npm/@xiee/utils/js/center-img.min.js,npm/@xiee/utils/js/right-quote.min.js,npm/@xiee/utils/js/no-highlight.min.js,npm/@xiee/utils/js/fix-footnote.min.js,npm/@xiee/utils/js/math-code.min.js,npm/@xiee/utils/js/external-link.min.js,npm/@xiee/utils/js/alt-title.min.js,npm/@xiee/utils/js/header-link.min.js></script><hr><div class=copyright>© <a href=https://blog.lightsinger.top>Philo</a> | <a href=https://twitter.com/zlc_milano>twitter</a> | 2021 - 2022</div></footer></article></body></html>
