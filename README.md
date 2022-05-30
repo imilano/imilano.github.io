@@ -5,4 +5,4 @@
 - [我在腾讯实习 10 个月](./content/cn/%E7%94%9F%E6%B4%BB%20%7C%20%E6%88%91%E5%9C%A8%E8%85%BE%E8%AE%AF%E5%AE%9E%E4%B9%A0%2010%20%E4%B8%AA%E6%9C%88.md)
 - [2021 年终总结](./content/cn/%E7%94%9F%E6%B4%BB%20%7C%202021%20%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93.md)
 ### Tech
-- [] Websocket 简介
+- [ ] Websocket 简介
