@@ -28,7 +28,6 @@
 	  }
 
 	  if (direction !== prevDirection && Math.abs(curScroll - prevScroll) > 1) {
-		console.log(`predirection ${prevDirection}, current direction ${direction}, current scroll ${curScroll}`);
 		toggleHeader(direction, curScroll);
 	  }
 
@@ -36,7 +35,7 @@
 	};
 
 	var toggleHeader = function (direction, curScroll) {
-	  if (direction === 2 && curScroll > 50) {
+	  if (direction === 2 && curScroll > 200) {
 
 		//replace 52 with the height of your header in px
 
