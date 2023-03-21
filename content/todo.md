@@ -1,5 +1,5 @@
 ---
-title: Philo's TODO List
+title: Philos's TODO List
 slug: todo
 ---
 

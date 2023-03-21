@@ -3,7 +3,7 @@ draft: true
 date: "{{ .Date }}"
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
 description: ""
-author: "Philo"
+author: "Philos"
 authorlink: "https://twitter.com/zlc_milano"
 show_toc: false
 disable_mathjax: true

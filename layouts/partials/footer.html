@@ -1,16 +1,16 @@
+</article>
 <div class="article-end">
-    <span class="article-divider"></span>
-    THE END
-    <span class="article-divider"></span>
-  </div>
+	<span class="article-divider"></span>
+	THE END
+	<span class="article-divider"></span>
+</div>
   <footer>
-  {{ partial "foot_custom.html" . }}
-  {{ partial "footer_highlightjs" . }}
-  {{ with .Site.Params.footer }}
-  <div class="copyright"> {{ . | markdownify }} | {{ $.Site.Params.startYear }} - {{ now.Format "2006" }} </div>
-  {{ end }}
-  </footer>
-  </article>
+	{{ partial "foot_custom.html" . }}
+	{{ partial "footer_highlightjs" . }}
+	{{ with .Site.Params.footer }}
+	<div class="copyright"> {{ . | markdownify }} | {{ $.Site.Params.startYear }} - {{ now.Format "2006" }} </div>
+	{{ end }}
+	</footer>
   {{ template "_internal/google_analytics.html" . }}
   </body>
 </html>
