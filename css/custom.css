@@ -265,6 +265,7 @@ blockquote p {
     margin: 0 5px;
     font-style: italic;
     border-radius: 20%;
+	white-space: nowrap;
 }
 .tag-item::before {
 	/* content: url(../images/tag.svg); */
