@@ -4,7 +4,7 @@
 {{ if .IsPage }}
 <h3>{{ with or (or .Params.author (index .Site.Params.author .Section)) "" }}{{  print . " / " }}{{ end }}
 {{ if .Params.date }}{{ .Date.Format "2006-01-02" }} {{  print " / " }} {{ end }}
-{{ range .Params.tags}}<a href="{{ $.Site.BaseURL }}tags/{{ . | urlize | lower  }}"><span class="tag-item">{{.}} </span></a>{{ end }}
+{{ range .Params.tags}}<a class="tag-item" href="{{ $.Site.BaseURL }}tags/{{ . | urlize | lower  }}"><span >{{.}} </span></a>{{ end }}
 </h3>
 {{ end }}
 <!-- <hr> -->

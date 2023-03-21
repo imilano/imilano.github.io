@@ -90,9 +90,8 @@ a {
 	border-bottom: none;
 }
 
-
 a:hover {
-	border-bottom: 1px solid var(--text-light-gray);
+	border-bottom: 2px solid var(--text-light-gray);
 }
 
 /* resize image size when viewport change */
@@ -165,6 +164,7 @@ nav>ul li {
 /* set default direction for menu items */
 .masthead .menu {
 	direction: ltr;
+	font-weight: bold;
 }
 
 .menu ul {
@@ -186,11 +186,21 @@ main content configuration
 	border: none;
 }
 
+.main a {
+	border-bottom: 2px solid var(--text-light-gray);
+}
+
+/* remove border of post item,copyright and nav item */
+.post-list a, .featured-list a,  .tag-cloud-item a,.anchor a, .tag-item {
+	border-bottom: none;
+}
+
+
 
 
 /* post items configuration */
 .main ul {
-	padding-left: 4em;
+	padding-left: 3em;
 }
 
 .featured-list,
@@ -319,6 +329,8 @@ blockquote p {
 	/* content: url(../images/tag.svg); */
 	content: "#";
 	display: inline-block;
+	font-size: medium;
+	font-weight: lighter;
 }
 
 header > h3 > a > span {
@@ -430,7 +442,7 @@ li>p:nth-child(1) {
 	}
 
 	.main ul {
-		padding-left: 4em;
+		padding-left: 2em;
 	}
 
 	.post ul,
