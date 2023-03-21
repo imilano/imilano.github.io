@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {{ if eq .RelPermalink "/" }}
+  <title>{{ .Site.Title }}</title>
+  <meta property="og:title" content="{{ .Site.Title }}">
+  <meta property="og:type" content="website">
+  {{ else }}
+  <title>{{ .Title }}{{ with .Params.subtitle }} - {{ . }} {{ end }} - {{ .Site.Title }}</title>
+  <meta property="og:title" content="{{ .Title }} - {{ .Site.Title }}">
+  {{ end }}
+  <meta name="twitter:card" content="summary">
+
+  {{ with .Description }}
+  {{ $.Scratch.Set "summary" (markdownify .) }}
+  {{ else }}
+  {{ $.Scratch.Set "summary" ((delimit (findRE "(<p.*?>(.|\n)*?</p>\\s*)+" .Content) "[&hellip;] ") | plainify |
+    truncate (default 200 .Site.Params.summary_length) (default " &hellip;" .Site.Params.text.truncated)) }}
+    {{ end }}
+
+    {{ if eq .RelPermalink "/" }}
+    <meta property="description" content="{{ .Site.Params.description }}">
+    {{ else }}
+    {{ with ($.Scratch.Get "summary") }}
+    <meta property="description" content="{{ . }}">
+    <meta property="og:description" content="{{ . }}">
+    {{ end }}
+    {{ end }}
+
+    {{ range (findRE "<img src=\"https?://[^\"]+" .Content 1) }} {{ $.Scratch.Set "autoImage" true }} <meta
+      name="twitter:image" content="{{ replaceRE " <img src=\"" "" . | htmlUnescape }}">
+    {{ end }}
+    {{ with .Site.Params.twitterImage }}
+    {{ if not ($.Scratch.Get "autoImage") }}
+    <meta name="twitter:image" content="{{ absURL . }}">
+    {{ end }}
+    {{ end }}
+
+    {{ if .Keywords }}
+    <meta property="keywords" content="{{ delimit .Keywords " , " }}">
+    {{ end }}
+
+    {{ with .OutputFormats.Get "RSS" }}
+    <link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
+    {{ end }}
+    {{ partial "head_highlightjs" . }}
+    <link rel="stylesheet" href="{{ " /css/style.css" | relURL }}" />
+    <link rel="stylesheet" href="{{ " /css/fonts.css" | relURL }}" />
+    {{ partial "head_custom.html" . }}
+</head>
+
+{{ $.Scratch.Set "section" (replaceRE "^/([^/]+)/.*" "$1" .RelPermalink) }}
+{{ $baseurl := .Site.BaseURL}}
+<body class="{{ $.Scratch.Get " section" }}">
+  <header class="masthead" id="masthead">
+    {{ partial "tagline.html" . }}
+    {{ partial "menu.html" . }}
+  </header>
+  <script src="{{ $baseurl }}js/hide-menu.js"></script>
+  <script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
+  <script>addBackToTop({
+    backgroundColor: '#ddd',
+    innerHTML: '<svg viewBox="0 0 24 24"><path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"/></svg>',
+    textColor: 'black'
+  })</script>
+  <article class="main">
+    {{ if ne .RelPermalink "/" }}
+    <header class="title">
+      {{ partial "meta.html" . }}
+    </header>
+    {{ end }}

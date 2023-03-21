@@ -14,3 +14,10 @@ disable_comments: true
 我很少在微信上聊天，每次聊天坚决不会让自己超过半小时（父母除外），我相信面对面的交流更加高效和有趣。如果你对我感兴趣或者有想对我说的话，可以发送邮件到[这里](https://mail.google.com/mail/?view=cm&fs=1&to=reallinchao.zh@gmail.com)。我会经常查收邮件和清空收件箱，如果你没有收到回复，请再等等，可能我在外面撸猫。
 
 
+这是 Philos 的个人主页。
+
+2020 年 Philos 从南京邮电大学计算机学院毕业，同年进入中国科学技术大学软件学院攻读软件工程硕士，现在仍在努力攻读学位中。
+
+Philos 支持开源，崇尚自由，尤其痛恨百度和 GFW。Philos 喜欢阅读，开卷有益，不分类别。 Philos 想过健康的生活，因此他经常去锻炼。
+
+Philos 先后实习于[杭州不亦乐乎科技有限公司](https://stepbeats.io/)、[腾讯微信支付](https://pay.weixin.qq.com/)以及[字节跳动火山引擎](https://www.volcengine.com/)。他现在是火山引擎的一位后端开发工程师。

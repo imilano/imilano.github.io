@@ -1,0 +1,35 @@
+{{ partial "header.html" . }}
+{{ $baseurl := .Site.BaseURL}}
+{{ $data := .Data }}
+<section class="taxonomy-terms">
+  <div id="tag-wrapper" ></div>
+  <br>
+  <!-- <h3>All {{ $data.Plural }} alphabetically</h3>
+  <ul>
+    {{ range $key, $value := .Data.Terms }}
+    <li><a href="{{ $baseurl }}{{ $data.Plural }}/{{ $key | urlize }}">{{ $key }}</a> {{ len $value }}</li>
+    {{ end }}
+  </ul> -->
+  <script src="{{ $baseurl }}js/wordcloud2.js"></script>
+  <script>
+    let tagArray = new Array();
+    {{ range $key, $value := .Data.Terms }}
+    tagArray.push([{{ $key }}, {{ len $value }} ])
+    {{ end }}
+
+    const tagWrapper = document.querySelector("#tag-wrapper");
+    WordCloud(tagWrapper, {
+        list: tagArray,
+        weightFactor: 10,
+        classes: "tag-cloud-item",
+    });
+
+    tagWrapper.addEventListener('wordcloudstop', function (e) {
+        document.querySelectorAll('.tag-cloud-item').forEach(function (element) {
+            const text = element.innerHTML;
+            element.innerHTML = `<a href="{{ $baseurl }}{{ $data.Plural }}/${text}/" style="color: inherit;">${text}</a>`;
+        });
+    });
+    </script>
+</section>
+{{ partial "footer.html" . }}

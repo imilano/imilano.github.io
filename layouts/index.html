@@ -1,0 +1,36 @@
+
+{{ partial "header.html" . }}
+
+{{ .Content }}
+
+<!-- {{ if .IsHome }} -->
+{{ $.Scratch.Set "pages" .Site.RegularPages }}
+<!-- {{ else }}
+{{ $.Scratch.Set "pages" .Pages }}
+{{ end }} -->
+
+<div class="featured">
+  <h2> Featured </h2>
+    <ul class="featured-list">
+      {{ range  where .Site.RegularPages ".Params.featured" true }}
+      <li>
+        <span class="date">{{ .Date.Format "2006-01-02" }}</span>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </li>
+      {{ end }}
+  </ul>
+  </div>
+
+<div class="post">
+<h2> Posts </h2>
+<ul class="post-list">
+  {{ range (where ($.Scratch.Get "pages") "Section" "!=" "") }}
+  <li>
+    <span class="date">{{ .Date.Format "2006-01-02" }}</span>
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+  </li>
+  {{ end }}
+</ul>
+</div>
+
+{{ partial "footer.html" . }}
