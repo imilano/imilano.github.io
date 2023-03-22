@@ -347,6 +347,11 @@ p {
 	text-indent: 2em;
 }
 
+/* remove text indent for paragraphs under li element */
+li>p:nth-child(2) {
+	text-indent: 0;
+}
+
 li>p:nth-child(1) {
 	text-indent: 0 !important;
 }
