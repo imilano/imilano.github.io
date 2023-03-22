@@ -247,8 +247,8 @@ main content configuration
 .article-divider {
 	display: inline-block;
 	border-top: 2px solid var(--border-light-gray);
-	width: calc(min(var(--content-width), var(--mobile-device-width))/2 - 4ch);
-	max-width: var(--mobile-device-width);
+	width: calc(max(var(--content-width), var(--mobile-device-width))/2 - 4ch);
+	max-width: calc(var(--mobile-device-width)/2 - 4ch);
 	vertical-align: 5px;
 }
 
