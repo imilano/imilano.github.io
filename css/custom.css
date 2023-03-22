@@ -186,8 +186,11 @@ main content configuration
 }
 
 /* remove border of post item,copyright and nav item */
-.post-item a,  .tag-cloud-item a,.anchor a, .tag-item {
-	border-bottom: none ;
+.post-item a,
+.tag-cloud-item a,
+.anchor a,
+.tag-item {
+	border-bottom: none;
 }
 
 .post-item a:hover {
@@ -275,7 +278,7 @@ footer {
 
 /* add beautiful blockquote */
 blockquote {
-	margin: 1em 0;
+	margin: 1em auto;
 	padding: 0 2em;
 	border-left: 5px solid var(--text-light-gray);
 	font-style: italic;
@@ -295,7 +298,7 @@ blockquote::after {
 	color: var(--text-light-gray);
 	height: 5vh;
 	font-size: 5rem;
-	margin-left: 90%;
+	margin-left: 95%;
 	margin-top: -5%
 }
 
@@ -332,9 +335,9 @@ blockquote p {
 	font-weight: lighter;
 }
 
-header > h3 > a > span {
+header>h3>a>span {
 	font-size: .8em;
-	font-weight:lighter;
+	font-weight: lighter;
 }
 
 /*------------------------------------------------------------------------
@@ -450,14 +453,13 @@ li>p:nth-child(1) {
 	}
 
 	.hide {
-		top: -250px;
+		top: -260px !important;
 	}
 
 	.article-divider {
 		display: inline-block;
 		border-top: 2px solid var(--border-light-gray);
-		width: 50vw;
+		width: 20vw;
 		vertical-align: 5px;
 	}
-
 }
