@@ -102,11 +102,6 @@ img {
 
 }
 
-img:hover,
-img:focus {
-	transform: scale(1.2);
-}
-
 
 /*******************************
 	masthead configuration
@@ -191,8 +186,12 @@ main content configuration
 }
 
 /* remove border of post item,copyright and nav item */
-.post-list a, .featured-list a,  .tag-cloud-item a,.anchor a, .tag-item {
-	border-bottom: none;
+.post-item a,  .tag-cloud-item a,.anchor a, .tag-item {
+	border-bottom: none ;
+}
+
+.post-item a:hover {
+	border-bottom: 2px solid var(--text-light-gray);
 }
 
 
@@ -406,7 +405,7 @@ li>p:nth-child(1) {
 
 	.main {
 		/* width: 100%; */
-		margin: 0 10%;
+		margin: 0 3%;
 	}
 
 	.article-divider {

@@ -7,7 +7,7 @@
 <div class="archive">
 {{ if .Params.list_pages }}
   {{ range .Pages.ByParam (or .Params.order_by "date" ) }}
-  <p>
+  <p class="post-item">
     <span>{{ .Date.Format "2006-01-02" }}</span>
     <a href="{{ .RelPermalink }}">{{ .Title }} {{ with .Params.subtitle }}<span class='subtitle'> &middot; {{ . }} </span>{{ end }}</a>
   </p>
@@ -17,7 +17,7 @@
   <h2 class="archive-title">{{ .Key }}</h2>
   {{ range .Pages.GroupByDate "2006-01-02" }}
   {{ range .Pages }}
-  <p>
+  <p class="post-item">
     <span>{{ .Date.Format "2006-01-02" }}</span>
     <a href="{{ .RelPermalink }}">{{ .Title }}</a>
   </p>
