@@ -97,7 +97,7 @@ a:hover {
 /* resize image size when viewport change */
 img {
 	max-width: 100%;
-	border-radius: 10px;
+	border-radius: 15px;
 	margin: auto;
 	display: block;
 	/* width: 50%; */
