@@ -83,6 +83,22 @@ h6 {
 	text-align: center;
 }
 
+h1 {
+	font-size: 32px;
+	font-weight: normal;
+  }
+  
+  h2 {
+	font-size: 22px;
+	font-weight: bold;
+  }
+  
+  h3, h4, h5, h6 {
+	font-size: 19px;
+	font-weight: bold;
+	text-align: left;
+  }
+
 a {
 	color: black;
 	text-decoration: none;
@@ -98,7 +114,7 @@ a:hover {
 img {
 	max-width: 100%;
 	border-radius: 15px;
-	margin: auto;
+	margin: 5px auto;
 	display: block;
 	/* width: 50%; */
 }
@@ -137,7 +153,7 @@ img {
 
 /* hide masthead when scroll down */
 .masthead.hide {
-	top: -120px;
+	top: -130px;
 }
 
 /* show masthead when hover */
