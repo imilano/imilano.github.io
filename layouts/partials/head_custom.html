@@ -1,6 +1,6 @@
 {{ if or .IsHome (len (findRE "^/cn/" .RelPermalink)) }}
 <script async src="/js/load-typekit.js"></script>
-{{ if lt (.Date.Year) 2017 }}
+<!-- {{ if lt (.Date.Year) 2017 }}
 <script>
 (function(u, c) {
   var d = document, t = 'script', o = d.createElement(t), s = d.getElementsByTagName(t)[0];
@@ -11,7 +11,7 @@
   pangu.spacingPage();
 });
 </script>
-{{ end }}
+{{ end }} -->
 {{ end }}
 
 {{ partial "custom_css.html" (apply .Site.Params.customCSS "print" "utils/" ".") }}

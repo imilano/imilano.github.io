@@ -21,13 +21,13 @@ menu:
     - name: "标签/Tags"
       url: "/tags/"
       weight: 2
-    - name: "书籍/Reading"
+    - name: "阅读/Reading"
       url: "/cn/reading"
       weight: 3
     - name: "关于/About"
       url: "/cn/about/"
       weight: 4
-    - name: "订阅/Subscribe"
+    - name: "订阅/Rss"
       url: "/index.xml"
 
   # en:
