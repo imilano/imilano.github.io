@@ -1,6 +1,6 @@
 ---
 title: Github Issue Guide
-author: 'Philos'
+author: '令不言'
 date: '2019-03-04'
 slug: issue
 ---

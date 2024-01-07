@@ -1,6 +1,6 @@
 baseurl: "https://blog.lightsinger.top/"
 languageCode: "en-us"
-title: "Philos"
+title: "令不言"
 theme: "hugo-ivy"
 disqusShortname: "lightsinger"
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
@@ -68,7 +68,7 @@ menu:
 
 params:
   description: "为所爱奋不顾身"
-  footer: "&copy; [Philo](https://blog.lightsinger.top)  | [twitter](https://twitter.com/zlc_milano)"
+  footer: "&copy; [令不言](https://blog.lightsinger.top)  | [twitter](https://twitter.com/zlc_milano)"
   disqusURL: "https://blog.lightsinger.top"
   utterancRepo: "imilano/imilano.github.io"
   utterancTheme: "github-light"
@@ -105,7 +105,7 @@ params:
 
   author:
     en: "Philos"
-    cn: "Philos"
+    cn: "令不言"
     # animation: "Yihui Xie & Lijia Yu"
 
   # lang:
