@@ -130,8 +130,8 @@ document.querySelectorAll('.main a').forEach(function(el) {
         
         ]]></description></item><item><title>关于</title><link>https://blog.lightsinger.top/cn/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.lightsinger.top/cn/about/</guid><description><![CDATA[
         <h2 id="我是谁">我是谁</h2>
-<p>你好，我是 Philos，一名软件工程师。</p>
-<p>我出生自云南大理，一个山清水秀天蓝云白的地方，从小吹着洱海风长大。人生的前二十年我浑浑噩噩，随波逐流，慢慢的才开始认识自我。高考之后阴差阳错进入计算机行业，如今还在这条道上艰难求索。我崇尚自由，痛恨百度和 GFW，我认为 Google 是这个世界上最伟大的公司。闲暇时间，我喜欢阅读，开卷有益。我认为健康的身体是一切的前提，因此我经常去健身房，我希望自己能够活到 100 岁。我常看美剧，偶尔看英剧，自成年之后，我鲜有再看国产剧或者国产电影，大部分国产剧和电影基本是在浪费生命。我喜欢音乐，目前也在学习吉他。Life is too short to be ordinary, 我希望自己不会成为一个平凡的人。我正在努力让自己变得更加专业，在自己感兴趣的领域拥有话语权是一件很酷的事情。</p>
+<p>你好，我是令不言，一名软件工程师，目前在字节跳动做 PaaS 方向的运维开发。</p>
+<p>我出生自云南大理，一个山清水秀天蓝云白的地方，从小吹着洱海风长大。人生的前二十年我浑浑噩噩，随波逐流，慢慢的才开始思考自己与认识世界。高考之后阴差阳错进入计算机行业，如今还在这条道上艰难求索。我崇尚自由，痛恨百度和 GFW，我认为 Google 是这个世界上最伟大的公司。闲暇时间，我喜欢阅读，开卷有益。我喜欢摄影，希望能不依靠后期就拍出不错的照片。我认为健康的身体是一切的前提，因此我经常在锻炼身体，我希望自己能够活到 100 岁。我常看美剧，偶尔看英剧，自成年之后，我鲜有再看国产剧或者国产电影，大部分国产剧和电影基本是在浪费生命。我喜欢音乐，目前也在学习吉他。Life is too short to be ordinary, 我希望自己不会成为一个平凡的人。我正在努力让自己变得更加专业，在自己感兴趣的领域拥有话语权是一件很酷的事情。</p>
 <p>我目前最喜欢的一首诗是罗伯特·弗罗斯特的 <em><a href="https://www.poetryfoundation.org/poems/44272/the-road-not-taken">The Road Not Taken</a></em></p>
 <blockquote>
 <p>I shall be telling this with a sigh</p>
