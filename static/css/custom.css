@@ -10,6 +10,7 @@
 	--content-width: 60vw;
 	--border-light-gray: #ddd;
 	--text-light-gray: #9e9e9e;
+	--main-text-color: black;
 	--main-background-color: #FBF9F3;
 }
 
@@ -159,7 +160,7 @@ img {
 
 /* hide masthead when scroll down */
 .masthead.hide {
-	top: -120px;
+	top: -200px;
 }
 
 /* show masthead when hover */
@@ -322,10 +323,10 @@ blockquote::after {
 	display: block;
 	content: close-quote;
 	color: var(--text-light-gray);
-	height: 5vh;
+	/* height: 5vh; */
 	font-size: 5rem;
 	margin-left: 95%;
-	margin-top: -5%
+	margin-bottom: -10%
 }
 
 blockquote p {
@@ -392,6 +393,7 @@ header>h3>a>span {
 -------------------------------------------------------------------------*/
 p {
 	text-indent: 2em;
+	color: var(--main-text-color);
 }
 
 /* remove text indent for paragraphs under li element */
