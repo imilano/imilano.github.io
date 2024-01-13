@@ -42,7 +42,7 @@
 		header.classList.add('hide');
 		prevDirection = direction;
 	  }
-	  else if (direction === 1) {
+	  else if (direction === 1 && curScroll < 200) {
 		header.classList.remove('hide');
 		prevDirection = direction;
 	  }
